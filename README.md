@@ -1,19 +1,51 @@
 # Frontend Slides
 
-A zero-dependency Claude Code skill for generating animation-rich HTML presentations.
+> Forked from zarazhangrui/frontend-slides (MIT).  
+> Enhancements and documentation updates by Jason Vo.
 
-> Note: Repository name is `html-slide-generator`. Skill command remains `/frontend-slides`.
+A zero-dependency Claude Code skill for generating self-contained, animation-rich HTML presentations.
+
+> Repository name: `html-slide-generator`  
+> Skill command: `/frontend-slides`
 
 ## What This Does
 
-**Frontend Slides** helps non-designers create beautiful web presentations without knowing CSS or JavaScript. It uses a "show, don't tell" approach: instead of asking you to describe your aesthetic preferences in words, it generates visual previews and lets you pick what you like.
+Frontend Slides enables users to create structured, animation-rich web presentations without requiring CSS or JavaScript knowledge.
 
+## Architecture Overview
+
+Frontend Slides follows a single-file, portability-first architecture designed for long-term stability and zero dependency overhead.
+
+### Core Design Principles
+
+- **Single-File Output Model**  
+  Each presentation is generated as a fully self-contained HTML document.
+
+- **Inline CSS and JavaScript**  
+  Styles and behavior are embedded directly in the file to eliminate external dependencies.
+
+- **Event-Driven Slide Controller**  
+  Navigation is handled through keyboard, scroll, touch, and click events managed by a lightweight presentation controller.
+
+- **Style Preset Abstraction Layer**  
+  Visual themes are modular and selectable, enabling consistent structure with flexible aesthetics.
+
+- **Optional PPT Parsing Layer**  
+  PowerPoint conversion is handled through `python-pptx`, extracting structured content before rendering into HTML.
+
+### Design Objectives
+
+- Portability across environments
+- Long-term maintainability
+- Minimal technical debt
+- Accessibility and responsive layout
+- Clear separation between content, style, and behavior
 ### Key Features
 
 - **Zero Dependencies** — Single HTML files with inline CSS/JS. No npm, no build tools, no frameworks.
 - **Visual Style Discovery** — Can't articulate design preferences? No problem. Pick from generated visual previews.
 - **PPT Conversion** — Convert existing PowerPoint files to web, preserving all images and content.
-- **Anti-AI-Slop** — Curated distinctive styles that avoid generic AI aesthetics (bye-bye, purple gradients on white).
+- **Curated Visual Styles** — Designed to avoid generic AI-generated aesthetics.
 - **Production Quality** — Accessible, responsive, well-commented code you can customize.
 
 ## Installation
