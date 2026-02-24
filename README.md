@@ -1,6 +1,8 @@
 # Frontend Slides
 
-A Claude Code skill for creating stunning, animation-rich HTML presentations — from scratch or by converting PowerPoint files.
+A zero-dependency Claude Code skill for generating animation-rich HTML presentations.
+
+> Note: Repository name is `html-slide-generator`. Skill command remains `/frontend-slides`.
 
 ## What This Does
 
