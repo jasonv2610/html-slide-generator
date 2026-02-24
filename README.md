@@ -42,11 +42,11 @@ Frontend Slides follows a single-file, portability-first architecture designed f
 - Clear separation between content, style, and behavior
 ### Key Features
 
-- **Zero Dependencies** — Single HTML files with inline CSS/JS. No npm, no build tools, no frameworks.
-- **Visual Style Discovery** — Can't articulate design preferences? No problem. Pick from generated visual previews.
-- **PPT Conversion** — Convert existing PowerPoint files to web, preserving all images and content.
-- **Curated Visual Styles** — Designed to avoid generic AI-generated aesthetics.
-- **Production Quality** — Accessible, responsive, well-commented code you can customize.
+- **Zero Dependencies** - Single HTML files with inline CSS/JS. No npm, no build tools, no frameworks.
+- **Visual Style Discovery** - Can't articulate design preferences? No problem. Pick from generated visual previews.
+- **PPT Conversion** - Convert existing PowerPoint files to web, preserving all images and content.
+- **Curated Visual Styles** - Designed to avoid generic AI-generated aesthetics.
+- **Production Quality** - Accessible, responsive, well-commented code you can customize.
 
 ## Installation
 
@@ -105,20 +105,20 @@ The skill will:
 ## Included Styles
 
 ### Dark Themes
-- **Neon Cyber** — Futuristic, techy, particle effects
-- **Midnight Executive** — Premium, corporate, trustworthy
-- **Deep Space** — Cinematic, inspiring, vast
-- **Terminal Green** — Developer-focused, hacker aesthetic
+- **Neon Cyber** - Futuristic, techy, particle effects
+- **Midnight Executive** - Premium, corporate, trustworthy
+- **Deep Space** - Cinematic, inspiring, vast
+- **Terminal Green** - Developer-focused, hacker aesthetic
 
 ### Light Themes
-- **Paper & Ink** — Editorial, literary, refined
-- **Swiss Modern** — Clean, Bauhaus-inspired, geometric
-- **Soft Pastel** — Friendly, playful, creative
-- **Warm Editorial** — Magazine-style, photographic
+- **Paper & Ink** - Editorial, literary, refined
+- **Swiss Modern** - Clean, Bauhaus-inspired, geometric
+- **Soft Pastel** - Friendly, playful, creative
+- **Warm Editorial** - Magazine-style, photographic
 
 ### Specialty
-- **Brutalist** — Raw, bold, attention-grabbing
-- **Gradient Wave** — Modern SaaS aesthetic
+- **Brutalist** - Raw, bold, attention-grabbing
+- **Gradient Wave** - Modern SaaS aesthetic
 
 ## Output Example
 
@@ -185,8 +185,8 @@ This skill was born from the belief that:
 
 Created by [@zarazhangrui](https://github.com/zarazhangrui) with Claude Code.
 
-Inspired by the "Vibe Coding" philosophy — building beautiful things without being a traditional software engineer.
+Inspired by the "Vibe Coding" philosophy - building beautiful things without being a traditional software engineer.
 
 ## License
 
-MIT — Use it, modify it, share it.
+MIT - Use it, modify it, share it.
